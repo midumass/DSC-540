@@ -763,3 +763,9 @@ ValueError: could not convert string to float: '2edd'
 04-18 16:13:51 SRIPT: I'm starting to do things
 04-18 16:13:51 SCRIPT: I'm done doing things
 04-18 16:13:51 SCRIPT: I'm done doing things
+04-18 17:09:39 Starting new HTTPS connection (1): web.archive.org:443
+04-18 17:09:41 https://web.archive.org:443 "GET /web/20140907183235/http://enoughproject.org/take_action HTTP/1.1" 200 None
+04-18 17:10:05 Starting new HTTPS connection (1): web.archive.org:443
+04-18 17:10:06 https://web.archive.org:443 "GET /web/20140907183235/http://enoughproject.org/take_action HTTP/1.1" 200 None
+04-18 17:10:51 SRIPT: I'm starting to do things
+04-18 17:10:51 SCRIPT: I'm done doing things
