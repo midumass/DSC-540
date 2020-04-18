@@ -1,0 +1,765 @@
+04-18 15:52:31 SRIPT: I'm starting to do things
+04-18 15:52:31 SCRIPT: I'm done doing things
+04-18 16:01:20 Fetching access token..
+04-18 16:01:20 Fetching new token from: https://us.battle.net/oauth/token?grant_type=client_credentials&client_id=0ea5646f90b64f508eb6d5a1f627b64c&client_secret=bQVuNxl88ci41eBP5Nhr01zuO2osE3HY
+04-18 16:01:20 Starting new HTTPS connection (1): us.battle.net:443
+04-18 16:01:20 https://us.battle.net:443 "GET /oauth/token?grant_type=client_credentials&client_id=0ea5646f90b64f508eb6d5a1f627b64c&client_secret=bQVuNxl88ci41eBP5Nhr01zuO2osE3HY HTTP/1.1" 401 None
+04-18 16:01:20 Invalid response - 401 for https://us.battle.net/oauth/token?grant_type=client_credentials&client_id=0ea5646f90b64f508eb6d5a1f627b64c&client_secret=bQVuNxl88ci41eBP5Nhr01zuO2osE3HY
+04-18 16:06:52 Fetching access token..
+04-18 16:06:52 Fetching new token from: https://us.battle.net/oauth/token?grant_type=client_credentials&client_id=0ea5646f90b64f508eb6d5a1f627b64c&client_secret=bQVuNxl88ci41eBP5Nhr01zuO2osE3HY
+04-18 16:06:52 Starting new HTTPS connection (1): us.battle.net:443
+04-18 16:06:52 https://us.battle.net:443 "GET /oauth/token?grant_type=client_credentials&client_id=0ea5646f90b64f508eb6d5a1f627b64c&client_secret=bQVuNxl88ci41eBP5Nhr01zuO2osE3HY HTTP/1.1" 200 None
+04-18 16:06:52 New token USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G expires at 2020-04-19 20:06:51.106684 UTC
+04-18 16:06:52 Requesting resource: https://us.api.blizzard.com/data/wow/realm/index with parameters: {'locale': 'en_US', 'namespace': 'dynamic-us', 'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:52 Starting new HTTPS connection (1): us.api.blizzard.com:443
+04-18 16:06:52 https://us.api.blizzard.com:443 "GET /data/wow/realm/index?locale=en_US&namespace=dynamic-us&access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 200 None
+04-18 16:06:52 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Lightbringer with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:52 https://us.api.blizzard.com:443 "GET /wow/auction/data/Lightbringer?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:52 Invalid response - https://us.api.blizzard.com/wow/auction/data/Lightbringer - 403
+04-18 16:06:52 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Cenarius with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:52 https://us.api.blizzard.com:443 "GET /wow/auction/data/Cenarius?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:52 Invalid response - https://us.api.blizzard.com/wow/auction/data/Cenarius - 403
+04-18 16:06:52 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Uther with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Uther?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Uther - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Kilrogg with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Kilrogg?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Kilrogg - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Proudmoore with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Proudmoore?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Proudmoore - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Hyjal with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Hyjal?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Hyjal - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Frostwolf with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Frostwolf?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Frostwolf - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Ner'zhul with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Ner'zhul?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Ner'zhul - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Kil'jaeden with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Kil'jaeden?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Kil'jaeden - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Blackrock with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Blackrock?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Blackrock - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Tichondrius with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Tichondrius?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Tichondrius - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Silver Hand with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Silver%20Hand?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Silver Hand - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Doomhammer with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Doomhammer?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Doomhammer - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Icecrown with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Icecrown?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Icecrown - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Deathwing with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:53 https://us.api.blizzard.com:443 "GET /wow/auction/data/Deathwing?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:53 Invalid response - https://us.api.blizzard.com/wow/auction/data/Deathwing - 403
+04-18 16:06:53 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Kel'Thuzad with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Kel'Thuzad?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Kel'Thuzad - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Eitrigg with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Eitrigg?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Eitrigg - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Garona with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Garona?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Garona - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Alleria with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Alleria?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Alleria - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Hellscream with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Hellscream?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Hellscream - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Blackhand with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Blackhand?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Blackhand - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Whisperwind with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Whisperwind?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Whisperwind - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Archimonde with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Archimonde?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Archimonde - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Illidan with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Illidan?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Illidan - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Stormreaver with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Stormreaver?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Stormreaver - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Mal'Ganis with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Mal'Ganis?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Mal'Ganis - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Stormrage with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Stormrage?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Stormrage - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Zul'jin with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:54 https://us.api.blizzard.com:443 "GET /wow/auction/data/Zul'jin?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:54 Invalid response - https://us.api.blizzard.com/wow/auction/data/Zul'jin - 403
+04-18 16:06:54 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Medivh with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Medivh?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Medivh - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Durotan with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Durotan?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Durotan - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Bloodhoof with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Bloodhoof?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Bloodhoof - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Khadgar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Khadgar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Khadgar - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Dalaran with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Dalaran?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Dalaran - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Elune with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Elune?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Elune - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Lothar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Lothar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Lothar - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Arthas with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Arthas?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Arthas - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Mannoroth with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Mannoroth?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Mannoroth - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Warsong with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Warsong?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Warsong - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Shattered Hand with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Shattered%20Hand?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Shattered Hand - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Bleeding Hollow with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Bleeding%20Hollow?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Bleeding Hollow - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Skullcrusher with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:55 https://us.api.blizzard.com:443 "GET /wow/auction/data/Skullcrusher?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:55 Invalid response - https://us.api.blizzard.com/wow/auction/data/Skullcrusher - 403
+04-18 16:06:55 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Argent Dawn with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Argent%20Dawn?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Argent Dawn - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Sargeras with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Sargeras?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Sargeras - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Azgalor with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Azgalor?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Azgalor - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Magtheridon with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Magtheridon?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Magtheridon - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Destromath with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Destromath?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Destromath - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Gorgonnash with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Gorgonnash?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Gorgonnash - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Dethecus with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Dethecus?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Dethecus - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Spinebreaker with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Spinebreaker?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Spinebreaker - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Bonechewer with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Bonechewer?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Bonechewer - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Dragonmaw with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Dragonmaw?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Dragonmaw - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Shadowsong with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Shadowsong?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Shadowsong - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Silvermoon with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Silvermoon?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Silvermoon - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Windrunner with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Windrunner?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Windrunner - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Cenarion Circle with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:56 https://us.api.blizzard.com:443 "GET /wow/auction/data/Cenarion%20Circle?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:56 Invalid response - https://us.api.blizzard.com/wow/auction/data/Cenarion Circle - 403
+04-18 16:06:56 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Nathrezim with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Nathrezim?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Nathrezim - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Terenas with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Terenas?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Terenas - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Burning Blade with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Burning%20Blade?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Burning Blade - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Gorefiend with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Gorefiend?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Gorefiend - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Eredar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Eredar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Eredar - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Shadowmoon with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Shadowmoon?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Shadowmoon - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Lightning's Blade with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Lightning's%20Blade?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Lightning's Blade - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Eonar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Eonar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Eonar - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Gilneas with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Gilneas?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Gilneas - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Kargath with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Kargath?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Kargath - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Llane with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Llane?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Llane - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Earthen Ring with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Earthen%20Ring?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Earthen Ring - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Laughing Skull with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:57 https://us.api.blizzard.com:443 "GET /wow/auction/data/Laughing%20Skull?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:57 Invalid response - https://us.api.blizzard.com/wow/auction/data/Laughing Skull - 403
+04-18 16:06:57 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Burning Legion with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Burning%20Legion?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Burning Legion - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Thunderlord with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Thunderlord?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Thunderlord - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Malygos with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Malygos?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Malygos - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Thunderhorn with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Thunderhorn?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Thunderhorn - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Aggramar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Aggramar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Aggramar - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Crushridge with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Crushridge?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Crushridge - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Stonemaul with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Stonemaul?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Stonemaul - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Daggerspine with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Daggerspine?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Daggerspine - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Stormscale with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Stormscale?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Stormscale - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Dunemaul with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Dunemaul?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Dunemaul - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Boulderfist with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Boulderfist?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Boulderfist - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Suramar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Suramar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Suramar - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Dragonblight with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:58 https://us.api.blizzard.com:443 "GET /wow/auction/data/Dragonblight?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:58 Invalid response - https://us.api.blizzard.com/wow/auction/data/Dragonblight - 403
+04-18 16:06:58 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Draenor with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Draenor?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Draenor - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Uldum with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Uldum?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Uldum - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Bronzebeard with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Bronzebeard?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Bronzebeard - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Feathermoon with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Feathermoon?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Feathermoon - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Bloodscalp with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Bloodscalp?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Bloodscalp - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Darkspear with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Darkspear?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Darkspear - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Azjol-Nerub with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Azjol-Nerub?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Azjol-Nerub - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Perenolde with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Perenolde?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Perenolde - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Eldre'Thalas with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Eldre'Thalas?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Eldre'Thalas - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Spirestone with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Spirestone?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Spirestone - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Shadow Council with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Shadow%20Council?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Shadow Council - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Scarlet Crusade with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Scarlet%20Crusade?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Scarlet Crusade - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Firetree with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:06:59 https://us.api.blizzard.com:443 "GET /wow/auction/data/Firetree?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:06:59 Invalid response - https://us.api.blizzard.com/wow/auction/data/Firetree - 403
+04-18 16:06:59 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Frostmane with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Frostmane?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Frostmane - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Gurubashi with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Gurubashi?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Gurubashi - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Smolderthorn with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Smolderthorn?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Smolderthorn - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Skywall with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Skywall?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Skywall - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Runetotem with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Runetotem?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Runetotem - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Moonrunner with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Moonrunner?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Moonrunner - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Detheroc with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Detheroc?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Detheroc - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Kalecgos with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Kalecgos?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Kalecgos - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Ursin with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Ursin?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Ursin - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Dark Iron with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Dark%20Iron?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Dark Iron - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Greymane with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Greymane?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Greymane - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Wildhammer with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Wildhammer?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Wildhammer - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Staghelm with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Staghelm?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Staghelm - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Emerald Dream with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:00 https://us.api.blizzard.com:443 "GET /wow/auction/data/Emerald%20Dream?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:00 Invalid response - https://us.api.blizzard.com/wow/auction/data/Emerald Dream - 403
+04-18 16:07:00 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Maelstrom with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Maelstrom?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Maelstrom - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Twisting Nether with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Twisting%20Nether?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Twisting Nether - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Cho'gall with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Cho'gall?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Cho'gall - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Gul'dan with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Gul'dan?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Gul'dan - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Kael'thas with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Kael'thas?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Kael'thas - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Alexstrasza with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Alexstrasza?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Alexstrasza - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Kirin Tor with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Kirin%20Tor?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Kirin Tor - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Ravencrest with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Ravencrest?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Ravencrest - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Balnazzar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Balnazzar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Balnazzar - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Azshara with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Azshara?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Azshara - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Agamaggan with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Agamaggan?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Agamaggan - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Lightninghoof with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Lightninghoof?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Lightninghoof - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Nazjatar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:01 https://us.api.blizzard.com:443 "GET /wow/auction/data/Nazjatar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:01 Invalid response - https://us.api.blizzard.com/wow/auction/data/Nazjatar - 403
+04-18 16:07:01 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Malfurion with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Malfurion?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Malfurion - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Aegwynn with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Aegwynn?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Aegwynn - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Akama with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Akama?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Akama - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Chromaggus with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Chromaggus?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Chromaggus - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Draka with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Draka?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Draka - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Drak'thul with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Drak'thul?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Drak'thul - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Garithos with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Garithos?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Garithos - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Hakkar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Hakkar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Hakkar - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Khaz Modan with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Khaz%20Modan?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Khaz Modan - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Mug'thol with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Mug'thol?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Mug'thol - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Korgath with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Korgath?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Korgath - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Kul Tiras with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Kul%20Tiras?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Kul Tiras - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Malorne with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Malorne?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Malorne - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Rexxar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:02 https://us.api.blizzard.com:443 "GET /wow/auction/data/Rexxar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:02 Invalid response - https://us.api.blizzard.com/wow/auction/data/Rexxar - 403
+04-18 16:07:02 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Thorium Brotherhood with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Thorium%20Brotherhood?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Thorium Brotherhood - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Arathor with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Arathor?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Arathor - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Madoran with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Madoran?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Madoran - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Trollbane with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Trollbane?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Trollbane - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Muradin with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Muradin?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Muradin - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Vek'nilash with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Vek'nilash?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Vek'nilash - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Sen'jin with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Sen'jin?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Sen'jin - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Baelgun with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Baelgun?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Baelgun - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Duskwood with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Duskwood?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Duskwood - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Zuluhed with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Zuluhed?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Zuluhed - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Steamwheedle Cartel with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Steamwheedle%20Cartel?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Steamwheedle Cartel - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Norgannon with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Norgannon?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Norgannon - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Thrall with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:03 https://us.api.blizzard.com:443 "GET /wow/auction/data/Thrall?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:03 Invalid response - https://us.api.blizzard.com/wow/auction/data/Thrall - 403
+04-18 16:07:03 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Anetheron with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Anetheron?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Anetheron - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Turalyon with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Turalyon?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Turalyon - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Haomarush with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Haomarush?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Haomarush - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Scilla with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Scilla?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Scilla - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Ysondre with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Ysondre?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Ysondre - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Ysera with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Ysera?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Ysera - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Dentarg with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Dentarg?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Dentarg - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Andorhal with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Andorhal?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Andorhal - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Executus with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Executus?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Executus - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Dalvengyr with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Dalvengyr?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Dalvengyr - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Black Dragonflight with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Black%20Dragonflight?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Black Dragonflight - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Altar of Storms with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Altar%20of%20Storms?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Altar of Storms - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Uldaman with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:04 https://us.api.blizzard.com:443 "GET /wow/auction/data/Uldaman?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:04 Invalid response - https://us.api.blizzard.com/wow/auction/data/Uldaman - 403
+04-18 16:07:04 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Aerie Peak with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/Aerie%20Peak?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/Aerie Peak - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Onyxia with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/Onyxia?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/Onyxia - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Demon Soul with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/Demon%20Soul?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/Demon Soul - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Gnomeregan with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/Gnomeregan?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/Gnomeregan - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Anvilmar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/Anvilmar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/Anvilmar - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/The Venture Co with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/The%20Venture%20Co?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/The Venture Co - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Sentinels with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/Sentinels?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/Sentinels - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Jaedenar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/Jaedenar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/Jaedenar - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Tanaris with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/Tanaris?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/Tanaris - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Alterac Mountains with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/Alterac%20Mountains?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/Alterac Mountains - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Undermine with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/Undermine?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/Undermine - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Lethon with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/Lethon?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/Lethon - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Blackwing Lair with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:05 https://us.api.blizzard.com:443 "GET /wow/auction/data/Blackwing%20Lair?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:05 Invalid response - https://us.api.blizzard.com/wow/auction/data/Blackwing Lair - 403
+04-18 16:07:05 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Arygos with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Arygos?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Arygos - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Echo Isles with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Echo%20Isles?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Echo Isles - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/The Forgotten Coast with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/The%20Forgotten%20Coast?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/The Forgotten Coast - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Fenris with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Fenris?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Fenris - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Anub'arak with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Anub'arak?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Anub'arak - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Blackwater Raiders with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Blackwater%20Raiders?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Blackwater Raiders - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Vashj with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Vashj?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Vashj - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Korialstrasz with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Korialstrasz?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Korialstrasz - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Misha with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Misha?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Misha - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Darrowmere with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Darrowmere?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Darrowmere - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Ravenholdt with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Ravenholdt?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Ravenholdt - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Bladefist with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Bladefist?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Bladefist - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Shu'halo with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Shu'halo?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Shu'halo - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Winterhoof with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:06 https://us.api.blizzard.com:443 "GET /wow/auction/data/Winterhoof?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:06 Invalid response - https://us.api.blizzard.com/wow/auction/data/Winterhoof - 403
+04-18 16:07:06 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Sisters of Elune with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Sisters%20of%20Elune?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Sisters of Elune - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Maiev with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Maiev?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Maiev - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Rivendare with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Rivendare?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Rivendare - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Nordrassil with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Nordrassil?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Nordrassil - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Tortheldrin with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Tortheldrin?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Tortheldrin - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Cairne with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Cairne?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Cairne - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Drak'Tharon with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Drak'Tharon?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Drak'Tharon - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Antonidas with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Antonidas?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Antonidas - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Shandris with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Shandris?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Shandris - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Moon Guard with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Moon%20Guard?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Moon Guard - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Nazgrel with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Nazgrel?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Nazgrel - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Hydraxis with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Hydraxis?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Hydraxis - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Wyrmrest Accord with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:07 https://us.api.blizzard.com:443 "GET /wow/auction/data/Wyrmrest%20Accord?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:07 Invalid response - https://us.api.blizzard.com/wow/auction/data/Wyrmrest Accord - 403
+04-18 16:07:07 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Farstriders with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Farstriders?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Farstriders - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Borean Tundra with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Borean%20Tundra?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Borean Tundra - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Quel'dorei with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Quel'dorei?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Quel'dorei - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Garrosh with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Garrosh?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Garrosh - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Mok'Nathal with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Mok'Nathal?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Mok'Nathal - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Nesingwary with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Nesingwary?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Nesingwary - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Drenden with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Drenden?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Drenden - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Drakkari with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Drakkari?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Drakkari - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Ragnaros with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Ragnaros?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Ragnaros - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Quel'Thalas with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Quel'Thalas?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Quel'Thalas - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Azuremyst with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Azuremyst?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Azuremyst - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Auchindoun with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Auchindoun?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Auchindoun - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Coilfang with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:08 https://us.api.blizzard.com:443 "GET /wow/auction/data/Coilfang?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:08 Invalid response - https://us.api.blizzard.com/wow/auction/data/Coilfang - 403
+04-18 16:07:08 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Shattered Halls with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/Shattered%20Halls?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/Shattered Halls - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Blood Furnace with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/Blood%20Furnace?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/Blood Furnace - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/The Underbog with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/The%20Underbog?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/The Underbog - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Terokkar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/Terokkar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/Terokkar - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Blade's Edge with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/Blade's%20Edge?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/Blade's Edge - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Exodar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/Exodar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/Exodar - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Area 52 with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/Area%2052?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/Area 52 - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Velen with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/Velen?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/Velen - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/The Scryers with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/The%20Scryers?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/The Scryers - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Zangarmarsh with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/Zangarmarsh?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/Zangarmarsh - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Fizzcrank with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/Fizzcrank?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/Fizzcrank - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Ghostlands with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/Ghostlands?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/Ghostlands - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Grizzly Hills with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/Grizzly%20Hills?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/Grizzly Hills - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Galakrond with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:09 https://us.api.blizzard.com:443 "GET /wow/auction/data/Galakrond?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:09 Invalid response - https://us.api.blizzard.com/wow/auction/data/Galakrond - 403
+04-18 16:07:09 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Dawnbringer with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Dawnbringer?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Dawnbringer - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Goldrinn with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Goldrinn?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Goldrinn - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Nemesis with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Nemesis?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Nemesis - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Azralon with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Azralon?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Azralon - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Tol Barad with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Tol%20Barad?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Tol Barad - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Gallywix with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Gallywix?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Gallywix - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Caelestrasz with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Caelestrasz?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Caelestrasz - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Aman'Thul with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Aman'Thul?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Aman'Thul - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Barthilas with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Barthilas?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Barthilas - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Thaurissan with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Thaurissan?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Thaurissan - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Frostmourne with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Frostmourne?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Frostmourne - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Khaz'goroth with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Khaz'goroth?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Khaz'goroth - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Dreadmaul with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:10 https://us.api.blizzard.com:443 "GET /wow/auction/data/Dreadmaul?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:10 Invalid response - https://us.api.blizzard.com/wow/auction/data/Dreadmaul - 403
+04-18 16:07:10 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Nagrand with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:11 https://us.api.blizzard.com:443 "GET /wow/auction/data/Nagrand?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:11 Invalid response - https://us.api.blizzard.com/wow/auction/data/Nagrand - 403
+04-18 16:07:11 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Dath'Remar with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:11 https://us.api.blizzard.com:443 "GET /wow/auction/data/Dath'Remar?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:11 Invalid response - https://us.api.blizzard.com/wow/auction/data/Dath'Remar - 403
+04-18 16:07:11 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Jubei'Thos with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:11 https://us.api.blizzard.com:443 "GET /wow/auction/data/Jubei'Thos?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:11 Invalid response - https://us.api.blizzard.com/wow/auction/data/Jubei'Thos - 403
+04-18 16:07:11 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Gundrak with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:11 https://us.api.blizzard.com:443 "GET /wow/auction/data/Gundrak?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:11 Invalid response - https://us.api.blizzard.com/wow/auction/data/Gundrak - 403
+04-18 16:07:11 Requesting resource: https://us.api.blizzard.com/wow/auction/data/Saurfang with parameters: {'access_token': 'USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G'}
+04-18 16:07:11 https://us.api.blizzard.com:443 "GET /wow/auction/data/Saurfang?access_token=USJfXpoB9EAyLZJAKdDDmBfn0k1dnj8T0G HTTP/1.1" 403 0
+04-18 16:07:11 Invalid response - https://us.api.blizzard.com/wow/auction/data/Saurfang - 403
+04-18 16:09:23 SRIPT: I'm starting to do things
+04-18 16:09:23 SCRIPT: I'm done doing things
+04-18 16:13:49 SRIPT: I'm starting to do things
+04-18 16:13:49 SCRIPT: There was a problem!
+Traceback (most recent call last):
+  File "C:/Users/midum/OneDrive/Documents/GitHub/DSC-540/other/Assignment_9.2_HillZach.py", line 77, in userInput
+    userInputFeet = float(receivedInputFeet)
+ValueError: could not convert string to float: '2edd'
+04-18 16:13:49 SCRIPT: non-numeric value found
+04-18 16:13:51 SRIPT: I'm starting to do things
+04-18 16:13:51 SCRIPT: I'm done doing things
+04-18 16:13:51 SCRIPT: I'm done doing things

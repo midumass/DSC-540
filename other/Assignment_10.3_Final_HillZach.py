@@ -9,8 +9,8 @@ import requests
 
 from wowapi import WowApi
 
-WOW_CLIENT_ID = '0ea5646f90b64f508eb6d5a1f627b64c'
-WOW_CLIENT_SECRET = 'bQVuNxl88ci41eBP5Nhr01zuO2osE3HY'
+WOW_CLIENT_ID = ''
+WOW_CLIENT_SECRET = ''
 
 api = WowApi(WOW_CLIENT_ID, WOW_CLIENT_SECRET)
 

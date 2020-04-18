@@ -28,7 +28,7 @@ def start_logger():
 
 def mail(to, subject, text, attach=None, config=None):
     msg = MIMEMultipart()
-    msg['From'] = ('midumass@googlemail.com')
+    msg['From'] = ('<email address>')
     msg['To'] = to
     msg['Subject'] = subject
     msg.attach(MIMEText(text))
@@ -43,10 +43,10 @@ def mail(to, subject, text, attach=None, config=None):
     mailServer.ehlo()
     mailServer.starttls()
     mailServer.ehlo()
-    mailServer.login('midumass@googlemail.com',
+    mailServer.login('<email address>',
                      '')
     # password removed for obvious reasons
-    mailServer.sendmail('midumass@googlemail.com', to, msg.as_string())
+    mailServer.sendmail('<email address>', to, msg.as_string())
     mailServer.close()
 
 # Calculate cost per foot based on user input
@@ -84,10 +84,12 @@ def userInput(receivedInputFeet):
         print(receivedInputFeet + ' is not a number. Please enter a number')
         userInputFeet = input('Enter number of feet for installation: ')
         userInput(userInputFeet);
-        mail('midumass@googlemail.com', 'FAILURE',
-             'Unsuccessful user data entry')
+        # Removed to hide email address
+        # mail('<email address>', 'FAILURE',
+        #     'Unsuccessful user data entry')
         
     logging.debug("SCRIPT: I'm done doing things")
-    mail('midumass@googlemail.com', 'SUCCESS', 'Successful user data entry')
+    # Removed to hide email address
+    # mail('<email address>', 'SUCCESS', 'Successful user data entry')
     
 userInput(userInputFeet);

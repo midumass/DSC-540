@@ -24,7 +24,7 @@ Documentation (page 208-212 Data Wrangling with Python).
 # from csv import DictReader
 from csv import reader
 # import urllib2
-# import pandas as pd
+import pandas as pd
 from datetime import datetime
 
 data_file = './mn.csv'
